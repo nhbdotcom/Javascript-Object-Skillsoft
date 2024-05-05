@@ -37,4 +37,4 @@ let thirdItem = {
         return this.price * USD_EUR;
     }
 };
-console.log("Price of updated thirdItem in Euros: ", thirdItem.priceEUR());
+console.log("Price of updated thirdItem in Euros: ", thirdItem.priceEUR());// by calling t he function priceEUR() the this.price * USD_EUR will give the product.
